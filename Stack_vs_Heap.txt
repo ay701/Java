@@ -1,0 +1,15 @@
+1. stack memory is used to store local variables and function call
+heap memory is used to store objects in Java.
+
+2. Each thread in Java has their own stack, heap is for java program
+
+3. If there is no memory left in the stack, java throws java.lang.stackoverflowerror
+if there is no heap space for creating objects, java throws java.lang.OutOfMemoryError
+
+4. Using recursion(function call itself) will cause stackoverflow, as it will fill up stack memory.
+
+5. Stack meomry is a lot less than the size of heap memory
+
+6. Variables stored in stacks are only visible to owner thread
+objects created in heap are visible to all threads.
+Stack memory is private, Heap memory is shared among all threads
