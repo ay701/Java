@@ -1,0 +1,13 @@
+1. Threads run in shared memory space
+Processes run in separate memory space
+
+2. A program in execution is often referred as process
+A thread is the smallest part of the process that can execute concurrently with other threads of the process
+
+3. A process is considered as a task. A thread is referred as lightweight process
+
+4. A thread can communicate with other threads using wait(),notify(),notifyAll(). But a process communicate with other process using inter-process communication
+
+5. New threads are easily created, but process requires duplication of the parent process
+
+6. Threads have control over other threads of the same process. A process does not have control over sibling process, it only has control over child processes only
